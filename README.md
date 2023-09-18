@@ -10,7 +10,7 @@
 
 ## 🚀 About Me
 
-- 👨‍💻 My Portfolio is available at [Github](https://github.com/samirgaire10)
+- 👨‍💻 My Github is available at [Github](https://github.com/samirgaire10)
 - 👨‍💻 My Portfolio is available at [Portfolio](https://samirgaire10.github.io/Portfolio/)
 - 👨‍💻 My projects  Library are available at [Library](https://samirgaire10.github.io/Library/)
 - 👨‍💻 My Highschool projects are available at [HighSchool projects](https://samirgaire10.github.io/High-School-Web-Projects/)
