@@ -1,376 +1,506 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="mediaqueries.css" />
-</head>
-
-<body>
-  <div class="for_back_img">
-  <nav id="desktop-nav">
-    <div class="logo"> <a href="https://samirgaire10.github.io/Portfolio/" target="_blank" rel="noopener noreferrer">ガイレ
-        サミル</a> </div>
-    <div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="./lg/jp.html">Jp</a> </li>
-      </ul>
-    </div>
-  </nav>
-  <nav id="hamburger-nav">
-    <div class="logo"> <a href="https://samirgaire10.github.io/Portfolio/" target="_blank" rel="noopener noreferrer">ガイレ
-        サミル</a> </div>
-    <div class="hamburger-menu">
-      <div class="hamburger-icon" onclick="toggleMenu()">
-        <span></span>
-        <!-- <span></span>
+  <body>
+    <div class="for_back_img">
+      <nav id="desktop-nav">
+        <div class="logo">
+          <a
+            href="https://samirgaire10.github.io/Portfolio/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ガイレ サミル
+          </a>
+        </div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#Activity">Activity</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="./lg/jp.html">Jp</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">
+          <a
+            href="https://samirgaire10.github.io/Portfolio/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ガイレ サミル
+          </a>
+        </div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <!-- <span></span>
           <span></span> -->
-      </div>
-      <div class="menu-links">
-        <li><a href="#about" onclick="toggleMenu()">About</a></li>
-        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-        <li><a href="./lg/jp.html">Jp</a> </li>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="./lg/jp.html">Jp</a></li>
+          </div>
+        </div>
+      </nav>
 
-      </div>
+      <section id="profile">
+        <div class="section__pic-container">
+          <img
+            src="https://avatars.githubusercontent.com/u/118608337?s=400&u=a15ff5fa1c00af7083cf7819667bbf4c20995f9a&v=4"
+            alt="samirgaire_pic"
+          />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Samir Gaire</h1>
+          <p class="section__text__p2">IT Engineer , Programmer</p>
+
+          <div id="socials-container">
+            <img
+              src="./assets/github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/samirgaire10'"
+            />
+            <img
+              src="./assets/x-twitter.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://twitter.com/samirgaire10_'"
+            />
+          </div>
+        </div>
+      </section>
     </div>
-  </nav>
 
-  <section id="profile">
-    <div class="section__pic-container">
-      <img src="https://avatars.githubusercontent.com/u/118608337?s=400&u=a15ff5fa1c00af7083cf7819667bbf4c20995f9a&v=4"
-        alt="samirgaire_pic" />
-    </div>
-    <div class="section__text">
-      <p class="section__text__p1">Hello, I'm</p>
-      <h1 class="title">Samir Gaire</h1>
-      <p class="section__text__p2">IT Engineer , Programmer</p>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="https://avatars.githubusercontent.com/u/118608337?s=400&u=a15ff5fa1c00af7083cf7819667bbf4c20995f9a&v=4"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
 
-      <div id="socials-container">
-        <img src="./assets/github.png" alt="My Github profile" class="icon"
-          onclick="location.href='https://github.com/samirgaire10'" />
-        <img src="./assets/x-twitter.png" alt="My Github profile" class="icon"
-          onclick="location.href='https://twitter.com/samirgaire10_'" />
+              <h3>Education</h3>
+              <b>
+                日章高校学校 コンピュータ科 (3Year)
+                <br />
+                <hr />
+                <br />
+                日本工学院専門学校蒲田校 情報処理科
+              </b>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              😈Become the Best IT Engineer , Programmer in the world
+              <br />
+              🪭Fan of One Piece and Naruto
+              <br />
+              ❤️‍🔥Love spicy ラーメン(RAMEN) & Chicken
+            </p>
+          </div>
+        </div>
       </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
 
-    </div>
-  </section>
+    <section id="Activity">
+      <h1 class="title">Activity</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/IMG_20240319_024800.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Kamata school</h3>
+              <p>
+                2024/3/18 - Blood Donation
+              </p>
+            </div>
 
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>日章 High school</h3>
+              <p>
+                2021 & 2022
+                <br />
+                <br />
+                Open Campus receptionist & School Support
+                <br />
+                (About 8~10 Times )
+              </p>
+            </div>
 
-  </div>
-  <section id="about">
-    <p class="section__text__p1">Get To Know More</p>
-    <h1 class="title">About Me</h1>
-    <div class="section-container">
-      <div class="section__pic-container">
-        <img
-          src="https://avatars.githubusercontent.com/u/118608337?s=400&u=a15ff5fa1c00af7083cf7819667bbf4c20995f9a&v=4"
-          alt="Profile picture" class="about-pic" />
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>広瀬 junior high school</h3>
+              <p>
+                <br />
+                [2019]
+                <br />
+
+                sakura festival clean-ups [Twice]
+                <br />
+                Beach Cleanups [Once]
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="about-details-container">
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/ollama.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <!-- <br> -->
+                <div>
+                  <h3>Ollama Ai</h3>
+                  <!-- <p>Experienced</p> -->
+                </div>
+              </article>
 
-            <h3>Education</h3>
-            <b>
-              日章高校学校 コンピュータ科 (3Year)
-              <br />
-              <hr />
-              <br />
-              日本工学院専門学校蒲田校 情報処理科
-            </b>
-          </div>
-        </div>
-        <div class="text-container">
-          <p>
-            😈Become the Best IT Engineer , Programmer in the world <br />
-            🪭Fan of One Piece and Naruto <br />
-            ❤️‍🔥Love spicy ラーメン(RAMEN) & Chicken
-          </p>
-        </div>
-      </div>
-    </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
-  </section>
+              <article>
+                <img src="./assets/c.webp" alt="Experience icon" class="icon" />
+                <!-- <br> -->
+                <div>
+                  <!-- <h3>C</h3> -->
+                  <!-- <p>Experienced</p> -->
+                </div>
+              </article>
 
+              <article>
+                <img
+                  src="./assets/python.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <!-- <br> -->
+                <div>
+                  <!-- <h3>python</h3> -->
+                  <!-- <p>Experienced</p> -->
+                </div>
+              </article>
 
-
-
-
-  <section id="about">
-    <h1 class="title">Activity</h1>
-    <div class="section-container">
-      <div class="section__pic-container">
-        <img src="./assets/IMG_20240319_024800.jpg" alt="Profile picture" class="about-pic" />
-      </div>
-      <div class="about-details-container">
-        <div class="about-containers">
-
-          <div class="details-container">
-            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
-            <h3> Kamata school</h3>
-            <p>
-              2024/3/18 - Blood Donation
-            </p>
-          </div>
-
-
-          <div class="details-container">
-            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
-            <h3> 日章 High school </h3>
-            <p>
-              2021 & 2022 <br><br>
-              Open Campus receptionist & School Support <br> (About 8~10 Times )
-            </p>
-          </div>
-
-          <div class="details-container">
-            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
-            <h3> 広瀬 junior high school </h3>
-            <p>
-              <br />
-              [2019] <br />
-
-              sakura festival clean-ups [Twice] <br>
-              Beach Cleanups [Once]
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
-  </section>
-
-
-
-
-
-
-
-
-  <section id="experience">
-    <p class="section__text__p1">Explore My</p>
-    <h1 class="title">Experience</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container">
-          <div class="article-container">
-            <article>
-              <img src="./assets/ollama.png" alt="Experience icon" class="icon" />
-              <!-- <br> -->
-              <div>
-                <h3>Ollama Ai</h3>
-                <!-- <p>Experienced</p> -->
-              </div>
-            </article>
-
-            <article>
-              <img src="./assets/c.webp" alt="Experience icon" class="icon" />
-              <!-- <br> -->
-              <div>
-                <!-- <h3>C</h3> -->
-                <!-- <p>Experienced</p> -->
-              </div>
-            </article>
-
-            <article>
-              <img src="./assets/python.png" alt="Experience icon" class="icon" />
-              <!-- <br> -->
-              <div>
-                <!-- <h3>python</h3> -->
-                <!-- <p>Experienced</p> -->
-              </div>
-            </article>
-
-            <article>
-              <img src="./assets/html.png" alt="Experience icon" class="icon" />
-              <div>
-                <!-- <h3>HTML</h3>
+              <article>
+                <img
+                  src="./assets/html.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <!-- <h3>HTML</h3>
                 <p>Experienced</p> -->
-              </div>
-            </article>
+                </div>
+              </article>
 
-            <article>
-              <img src="./assets/css.png" alt="Experience icon" class="icon" />
-              <div>
-                <!-- <h3>CSS</h3>
+              <article>
+                <img
+                  src="./assets/css.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <!-- <h3>CSS</h3>
                 <p>Experienced</p> -->
-              </div>
-            </article>
+                </div>
+              </article>
 
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Troubleshoot</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Troubleshoot</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
 
-            <article>
-              <img src="./assets/php.webp" alt="Experience icon" class="icon" />
-              <div>
-                <!-- <h3>PHP</h3>
+              <article>
+                <img
+                  src="./assets/php.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <!-- <h3>PHP</h3>
                 <p>Basic</p> -->
-              </div>
-            </article>
+                </div>
+              </article>
 
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>SSH</h3>
-                <p>Basic</p>
-              </div>
-            </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SSH</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
 
-            <article>
-              <img src="./assets/docker.png" alt="Experience icon" class="icon" />
-              <div>
-                <!-- <h3>Docker</h3>
+              <article>
+                <img
+                  src="./assets/docker.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <!-- <h3>Docker</h3>
                 <p>Basic</p> -->
-              </div>
-            </article>
+                </div>
+              </article>
 
-            <article>
-              <img src="./assets/linux.webp" alt="Experience icon" class="icon" />
-              <div>
-                <!-- <h3>Linux</h3>
+              <article>
+                <img
+                  src="./assets/linux.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <!-- <h3>Linux</h3>
                 <p>intermediate</p> -->
-              </div>
-            </article>
+                </div>
+              </article>
 
-            <article>
-              <img src="./assets/virtualbox.png" alt="Experience icon" class="icon" />
-              <div>
-                <!-- <h3>Virtual Machine</h3>
+              <article>
+                <img
+                  src="./assets/virtualbox.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <!-- <h3>Virtual Machine</h3>
                 <p>Intermediate</p> -->
-              </div>
-            </article>
-            <article>
-              <img src="./assets/sql.webp" alt="Experience icon" class="icon" />
-              <div>
-                <!-- <h3>Virtual Machine</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/sql.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <!-- <h3>Virtual Machine</h3>
                 <p>Intermediate</p> -->
-              </div>
-            </article>
-            <article>
-              <img src="../assets/java.webp" alt="Experience icon" class="icon" />
-              <div>
-                <!-- <h3>Virtual Machine</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="../assets/java.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <!-- <h3>Virtual Machine</h3>
                 <p>Intermediate</p> -->
-              </div>
-            </article>
+                </div>
+              </article>
 
-            <article>
-              <img src="../assets/javascript.webp" alt="Experience icon" class="icon" />
-              <div>
-                <!-- <h3>Virtual Machine</h3>
+              <article>
+                <img
+                  src="../assets/javascript.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <!-- <h3>Virtual Machine</h3>
                 <p>Intermediate</p> -->
-              </div>
-            </article>
+                </div>
+              </article>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <br />
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
-  </section>
-  
-  
-  
-  
-  
-  <section id="projects">
-    <p class="section__text__p1">Browse My Recent</p>
-    <h1 class="title">Projects</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container color-container">
-          <h2 class="experience-sub-title project-title">Project One</h2>
-          <p>My-Project-Portfolio</p> <br>
+      <br />
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
 
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/samirgaire10/My-Project-Portfolio'">
-              Github
-            </button>
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://samirgaire10.github.io/My-Project-Portfolio/'">
-              Web
-            </button>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <p>My-Project-Portfolio</p>
+            <br />
+
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/samirgaire10/My-Project-Portfolio'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://samirgaire10.github.io/My-Project-Portfolio/'"
+              >
+                Web
+              </button>
+            </div>
+            <br />
+            <p>This will link my all others projects</p>
           </div>
-          <br>
-          <p>This will link my all others projects</p>
-        </div>
-        <div class="details-container color-container">
-          <h2 class="experience-sub-title project-title">Project Two</h2>
-          <p>High School Web Projects</p> <br>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/samirgaire10/High-School-Web-Projects'">
-              Github
-            </button>
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://samirgaire10.github.io/High-School-Web-Projects/'">
-              Web
-            </button>
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <p>High School Web Projects</p>
+            <br />
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/samirgaire10/High-School-Web-Projects'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://samirgaire10.github.io/High-School-Web-Projects/'"
+              >
+                Web
+              </button>
+            </div>
+            <br />
+            <p>
+              This will link my (日章高校学校 コンピュータ科) High School Web
+              Projects projects
+            </p>
           </div>
-          <br>
-          <p>This will link my (日章高校学校 コンピュータ科) High School Web Projects projects</p>
-        </div>
-        <div class="details-container color-container">
-          <!-- <div class="article-container">
+          <div class="details-container color-container">
+            <!-- <div class="article-container">
               <img
                 src="./assets/project-3.png"
                 alt="Project 3"
                 class="project-img"
               />
             </div> -->
-          <h2 class="experience-sub-title project-title">Project Three</h2>
-          <p>蒲田工学院専門学校 </p> <br>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/samirgaire10/kamata'">
-              Github
-            </button>
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://samirgaire10.github.io/kamata/'">
-              Web
-            </button>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <p>蒲田工学院専門学校</p>
+            <br />
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/samirgaire10/kamata'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://samirgaire10.github.io/kamata/'"
+              >
+                Web
+              </button>
+            </div>
+            <br />
+            <p>This will link my 蒲田工学院専門学校 projects</p>
           </div>
-          <br>
-          <p>This will link my 蒲田工学院専門学校 projects</p>
         </div>
       </div>
-    </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
-  </section>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
 
-  <footer>
-    <nav>
-      <div class="nav-links-container">
-        <ul class="nav-links">
-          <li><a href="https://samirgaire10.github.io/Portfolio/">Portfolio</a></li>
-          <li><a href="https://github.com/samirgaire10/">Github</a></li>
-          <li><a href="https://samirgaire10.github.io/High-School-Web-Projects/">High School Projects</a></li>
-          <li><a href="https://samirgaire10.github.io/kamata/">蒲田 Projects</a></li>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li>
+              <a href="https://samirgaire10.github.io/Portfolio/">Portfolio</a>
+            </li>
+            <li><a href="https://github.com/samirgaire10/">Github</a></li>
+            <li>
+              <a
+                href="https://samirgaire10.github.io/High-School-Web-Projects/"
+              >
+                High School Projects
+              </a>
+            </li>
+            <li>
+              <a href="https://samirgaire10.github.io/kamata/">蒲田 Projects</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
 
-        </ul>
-      </div>
-    </nav>
-  </footer>
-
-
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>

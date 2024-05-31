@@ -18,6 +18,9 @@ body {
   background-image: url('assets/img4.jpg');
   background-size: cover;
 }
+
+
+
 html {
   scroll-behavior: smooth;
 }
