@@ -10,8 +10,14 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: skyblue;
+  
 }
 
+.for_back_img
+{
+  background-image: url('assets/img4.jpg');
+  background-size: cover;
+}
 html {
   scroll-behavior: smooth;
 }
