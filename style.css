@@ -440,3 +440,18 @@ footer {
 footer p {
   text-align: center;
 }
+
+
+@keyframes fade {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.fade-text {
+  animation: fade 3s infinite;
+  transition: opacity 0.5s ease-in-out;
+}
